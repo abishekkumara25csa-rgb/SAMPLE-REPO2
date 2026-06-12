@@ -48,10 +48,9 @@ console.log(!(x > 15)); // false
 //unary operators
 console.log("Unary operators");
 let num = 5;
-console.log(num); // 5
-num++;
-console.log(num); // 6
-num--;
+console.log(num++); // 5
+console.log(num--); // 6
+
 console.log(++num); // 5
 console.log(--num); // 4  
 
