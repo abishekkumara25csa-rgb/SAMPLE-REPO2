@@ -11,7 +11,7 @@ console.log(a ** b); // Exponentiation*/
 
 //Assignment operators
 console.log("Assignment operators");
-let c = 20;
+var c = 20;
 console.log(c); // 20
 c -= 5;
 console.log(c); // 15
@@ -59,3 +59,37 @@ console.log("Ternary operator");
 let age = 18;
 let Vote = (age >= 18) ? "Yes" : "No";
 console.log(Vote); // Yes
+
+console.log(" Data types");
+
+//number
+var num1 = 10;
+var num2 = 3;
+console.log(num1); // 10
+console.log(num2); // 3.14 
+//string
+var str1 = "Hello";
+var str2 = 'World';
+console.log(str1); // Hello 
+console.log(str2); // World
+//boolean
+var n= true;      
+var r = false;
+console.log(n); // true
+console.log(r); // false
+//null
+var nullValue = null;   
+console.log(nullValue); // null
+//undefined
+var undefinedValue;     
+console.log(undefinedValue); // undefined   
+//object
+var person = {
+    name: "Alice",       
+    age: 25
+};
+console.log(person); // { name: "Alice", age: 25 }  
+//array
+var numbers = [1, 2, 3, 4, 5];
+console.log(numbers[0]); // 1
+console.log(numbers.length); // 5
