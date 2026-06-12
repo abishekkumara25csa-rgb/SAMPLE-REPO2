@@ -21,6 +21,7 @@ c %= 4;
 console.log(c); // 2
 c **= 3;
 console.log(c); // 8
+
 //Comparison operators
 let a = 10;
 let b = 20;
@@ -32,3 +33,10 @@ console.log(a>b); // false
 console.log(a<b);      // true
 console.log(a>=b); // false
 console.log(a<=b); // true 
+
+//Logical operators
+let x = 20;
+let y = 10;
+console.log(x > 15 && y < 15); // true
+console.log(x > 15 || y < 5); // true
+console.log(!(x > 15)); // false        
