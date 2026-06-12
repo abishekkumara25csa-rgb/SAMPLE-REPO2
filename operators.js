@@ -21,3 +21,14 @@ c %= 4;
 console.log(c); // 2
 c **= 3;
 console.log(c); // 8
+//Comparison operators
+let a = 10;
+let b = 20;
+console.log(a==b); // false
+console.log(a!=b); // true
+console.log(a===b); // false
+console.log(a!==b); // true
+console.log(a>b); // false
+console.log(a<b);      // true
+console.log(a>=b); // false
+console.log(a<=b); // true 
