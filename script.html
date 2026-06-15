@@ -1,6 +1,6 @@
 <input id = "num1">
 <input id = "num2">
-<button onclick="resultfunction()">Add</button>
+<button onclick="resultfunction()">sub</button>
 <p id = "result">result</p>
 
 <script>
@@ -11,7 +11,7 @@
     function resultfunction() {
         var box1Value = Number(box1.value);
         var box2Value = Number(box2.value);
-        var total = box1Value + box2Value;
+        var total = box1Value - box2Value;
         result.textContent = "Result: " + total;
     }
 </script>
